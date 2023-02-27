@@ -1,11 +1,10 @@
 import ButtonStyled from "./ButtonStyled";
-
 interface ButtonProps {
-  innerText: string;
+  text: string;
 }
 
-const Button = ({ innerText }: ButtonProps): JSX.Element => {
-  return <ButtonStyled>{innerText}</ButtonStyled>;
+const Button = ({ text }: ButtonProps): JSX.Element => {
+  return <ButtonStyled>{text}</ButtonStyled>;
 };
 
 export default Button;
