@@ -1,8 +1,8 @@
 import React from "react";
-import Button from "./components/Button/Button";
+import RegisterForm from "./components/RegisterForm/RegisterForm";
 
 const App = (): JSX.Element => {
-  return <Button text="Sign up" />;
+  return <RegisterForm />;
 };
 
 export default App;
