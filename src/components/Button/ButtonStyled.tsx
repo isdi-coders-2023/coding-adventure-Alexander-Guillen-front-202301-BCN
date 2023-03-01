@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 const ButtonStyled = styled.button`
   height: 40px;
-  width: 323.02px;
+  width: 100%;
+  margin-top: 74px;
 
   background-color: ${(props) => props.theme.colors.secondary};
   color: ${(props) => props.theme.colors.primary};
@@ -17,6 +18,7 @@ const ButtonStyled = styled.button`
   }
 
   @media (min-width: 987px) {
+    max-width: 323.25px;
     height: 57px;
     padding: 12px 0px 14px 0px;
   }

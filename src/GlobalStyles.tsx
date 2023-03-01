@@ -1,5 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import "@fontsource/saira-stencil-one/400.css";
+import "@fontsource/roboto/700.css";
+import "@fontsource/roboto/400.css";
 
 const GlobalStyles = createGlobalStyle`
 *, ::after, ::before {
@@ -7,7 +9,8 @@ const GlobalStyles = createGlobalStyle`
 }
 
 body {
-  padding: 1.5rem;
+  padding: 18px;
+  margin: 0;
   background-color: ${(props) => props.theme.colors.primary};
   width: 100%;
   min-height: 100vh;
