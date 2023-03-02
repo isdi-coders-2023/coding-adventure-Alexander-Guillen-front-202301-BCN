@@ -8,7 +8,7 @@ describe("Given a Button component", () => {
     test("Then it should show a button with text 'Sign in'", () => {
       render(
         <ThemeProvider theme={theme}>
-          <Button text="Sign in" />
+          <Button text="Sign in" buttonStatus={false} action={jest.fn()} />
         </ThemeProvider>
       );
 
